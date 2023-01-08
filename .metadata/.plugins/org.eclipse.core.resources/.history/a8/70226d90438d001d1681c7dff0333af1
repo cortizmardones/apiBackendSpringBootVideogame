@@ -1,0 +1,5 @@
+package com.videogame.spring.model;
+
+public class VideoGame {
+
+}

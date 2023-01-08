@@ -1,0 +1,19 @@
+package com.videogame.spring.service;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.videogame.spring.model.dao.IVideoGameDao;
+
+@Service
+public class VideogameServiceImpl implements IVideogameService {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(VideogameServiceImpl.class);
+	
+	@Autowired
+	private IVideoGameDao videoGameDao;
+
+	
+}

@@ -1,0 +1,11 @@
+package com.videogame.spring.service;
+
+import java.util.List;
+
+import com.videogame.spring.model.VideoGame;
+
+public interface IVideogameService {
+	
+	public List<VideoGame> listarVideojuegos();
+
+}

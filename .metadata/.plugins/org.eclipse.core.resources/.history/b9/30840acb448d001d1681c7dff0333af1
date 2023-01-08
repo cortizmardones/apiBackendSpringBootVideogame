@@ -1,0 +1,14 @@
+package com.videogame.spring.model;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table("")
+public class VideoGame  implements Serializable {
+
+	private static final long serialVersionUID = 9152217868255911129L;
+
+}

@@ -1,0 +1,37 @@
+package com.videogame.spring.service;
+
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.videogame.spring.model.VideoGame;
+import com.videogame.spring.model.dao.IVideoGameDao;
+
+@Service
+public class VideogameServiceImpl implements IVideogameService {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(VideogameServiceImpl.class);
+	
+	@Autowired
+	private IVideoGameDao videoGameDao;
+
+	@Override
+	@Transactional(readOnly = true)
+	public List<VideoGame> listarVideojuegos() {
+		LOGGER.info("Inicio método listarVideojuegos");
+		
+		try {
+			List<VideoGame> listaVideojuegos = (List<VideoGame>) videoGameDao.findAll();
+		} catch (Exception e) {
+			LOGGER.error("No se pudo obtener la lista de videojuegos" , e);
+		}
+		
+		return listaVideojuegos;
+	}
+
+	
+}
