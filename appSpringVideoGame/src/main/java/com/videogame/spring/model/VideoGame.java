@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "Videogame")
-public class VideoGame implements Serializable {
+public class Videogame implements Serializable {
 
 	private static final long serialVersionUID = 9152217868255911129L;
 
@@ -22,11 +22,11 @@ public class VideoGame implements Serializable {
 	private String nombre;
 	private Double precio;
 
-	public VideoGame() {
+	public Videogame() {
 
 	}
 
-	public VideoGame(Long id, String nombre, Double precio) {
+	public Videogame(Long id, String nombre, Double precio) {
 		this.id = id;
 		this.nombre = nombre;
 		this.precio = precio;

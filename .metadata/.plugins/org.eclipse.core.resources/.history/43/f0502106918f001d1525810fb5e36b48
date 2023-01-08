@@ -1,0 +1,33 @@
+package com.videogame.spring.controller;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.videogame.spring.model.Videogame;
+import com.videogame.spring.service.IVideogameService;
+
+@RestController
+@RequestMapping("/v1")
+public class VideogameRestController {
+
+	@Autowired
+	private IVideogameService videogameService;
+	
+	@GetMapping("/listarVideojuegos")
+	public ResponseEntity<List<Videogame>> listarVideojuegos(){
+		return videogameService.listarVideojuegos();
+	}
+	
+	@GetMapping("buscar/{id}")
+	public ResponseEntity<Optional<Videogame>> buscarVideojuego(@PathVariable Long id){
+		return videogameService.buscarVideojuego(id);
+	}
+	
+}
