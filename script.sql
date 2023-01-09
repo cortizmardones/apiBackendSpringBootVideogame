@@ -23,7 +23,7 @@ insert into videogame values (null,"Zelda: Breath Of The Wild" , 49999.9);
 insert into videogame values (null,"Animal Crossing: New Horizons" , 56999.9);
 insert into videogame values (null,"Red Dead Redemption 2" , 19990.9);
 
-DELETE FROM videogame WHERE id_videogame = 3;
+DELETE FROM videogame WHERE id_videogame = 12;
 
 UPDATE videogame
 SET nombre ='Zelda: Breath Of The Wild' WHERE id_videogame = 1;

@@ -20,10 +20,44 @@ public class VideogameServiceImpl implements IVideogameService {
 
 	@Autowired
 	private Videogame videogame;
-	
+
 	@Autowired
 	private IVideoGameDao videoGameDao;
 
+	// ###################### CREATE ######################
+	@Override
+	@Transactional
+	public ResponseEntity<String> guardarVideojuego(String nombre, Double precio) {
+		LOGGER.info("Inicio método guardarVideojuego() - Parámetros : Nombre: " + nombre + " , Precio: " + precio);
+		try {
+			// El campo id lo paso como nulo ya que el parametro id del entity Videogame es
+			// autogenerado por JPA y por MYSQL.
+			videogame.setNombre(nombre);
+			videogame.setPrecio(precio);
+			videoGameDao.save(videogame);
+			return new ResponseEntity<String>("Videojuego guardado exitosamente", HttpStatus.OK);
+		} catch (Exception e) {
+			LOGGER.error("Error al guardar videojuego - parámetros: Nombre: " + nombre + " , Precio: " + precio, e);
+			e.printStackTrace();
+			return new ResponseEntity<String>("", HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+
+	@Override
+	@Transactional
+	public ResponseEntity<String> guardarVideojuegoBody(Videogame videogame) {
+		LOGGER.info("Inicio método guardarVideojuegoBody()");
+		try {
+			videoGameDao.save(videogame);
+			return new ResponseEntity<String>("Videojuego guardado exitosamente", HttpStatus.OK);
+		} catch (Exception e) {
+			LOGGER.error("Error al guardar videojuego", e);
+			e.printStackTrace();
+			return new ResponseEntity<String>("", HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+
+	// ###################### READ ######################
 	@Override
 	@Transactional(readOnly = true)
 	public ResponseEntity<List<Videogame>> listarVideojuegos() {
@@ -55,31 +89,48 @@ public class VideogameServiceImpl implements IVideogameService {
 		}
 	}
 
+	// ###################### UPDATE ######################
 	@Override
-	public ResponseEntity<String> guardarVideojuego(String nombre, Double precio) {
-		LOGGER.info("Inicio método guardarVideojuego() - Parámetros : Nombre: " + nombre + " , Precio: " + precio);
+	@Transactional
+	public ResponseEntity<String> actualizarVideojuegoBody(Videogame videogame) {
+		LOGGER.info("Inicio método actualizarVideojuegoBody()");
 		try {
-			//El campo id lo paso como nulo ya que el parametro id del entity Videogame es autogenerado por JPA y por MYSQL.
-			videogame.setNombre(nombre);
-			videogame.setPrecio(precio);
-			videoGameDao.save(videogame);
-			return new ResponseEntity<String>("Videojuego guardado exitosamente", HttpStatus.OK);
+			// Busco primero si existe el videojuego previamente en la BDD.
+			Optional<Videogame> videojuegoBuscado = videoGameDao.findById(videogame.getId());
+
+			if (videojuegoBuscado.isPresent()) {
+				videoGameDao.save(videogame);
+				return new ResponseEntity<String>("Videojuego actualizado exitosamente", HttpStatus.OK);
+			} else {
+				return new ResponseEntity<String>("Videojuego NO encontrado en los registros", HttpStatus.NOT_FOUND);
+			}
+
 		} catch (Exception e) {
-			LOGGER.error("Error al guardar videojuego - parámetros: Nombre " + nombre +  " , Precio: " + precio , e);
- 			e.printStackTrace();
+			LOGGER.error("Error al actualizar videojuego", e);
+			e.printStackTrace();
 			return new ResponseEntity<String>("", HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
 
+	// ###################### DELETE ######################
 	@Override
-	public ResponseEntity<String> guardarVideojuegoBody(Videogame videogame) {
-		LOGGER.info("Inicio método guardarVideojuegoBody()");
+	@Transactional
+	public ResponseEntity<String> eliminarVideojuegoBody(Videogame videogame) {
+		LOGGER.info("Inicio método eliminarVideojuegoBody()");
 		try {
-			videoGameDao.save(videogame);
-			return new ResponseEntity<String>("Videojuego guardado exitosamente", HttpStatus.OK);
+			// Busco primero si existe el videojuego previamente en la BDD.
+			Optional<Videogame> videojuegoBuscado = videoGameDao.findById(videogame.getId());
+
+			if (videojuegoBuscado.isPresent()) {
+				videoGameDao.delete(videogame);
+				return new ResponseEntity<String>("Videojuego eliminado exitosamente", HttpStatus.OK);
+			} else {
+				return new ResponseEntity<String>("Videojuego NO encontrado en los registros", HttpStatus.NOT_FOUND);
+			}
+
 		} catch (Exception e) {
-			LOGGER.error("Error al guardar videojuego", e);
- 			e.printStackTrace();
+			LOGGER.error("Error al eliminar videojuego", e);
+			e.printStackTrace();
 			return new ResponseEntity<String>("", HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
