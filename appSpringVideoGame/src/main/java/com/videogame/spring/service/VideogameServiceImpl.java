@@ -115,14 +115,14 @@ public class VideogameServiceImpl implements IVideogameService {
 	// ###################### DELETE ######################
 	@Override
 	@Transactional
-	public ResponseEntity<String> eliminarVideojuegoBody(Videogame videogame) {
+	public ResponseEntity<String> eliminarVideojuegoBody(Long id) {
 		LOGGER.info("Inicio método eliminarVideojuegoBody()");
 		try {
 			// Busco primero si existe el videojuego previamente en la BDD.
-			Optional<Videogame> videojuegoBuscado = videoGameDao.findById(videogame.getId());
+			Optional<Videogame> videojuegoBuscado = videoGameDao.findById(id);
 
 			if (videojuegoBuscado.isPresent()) {
-				videoGameDao.delete(videogame);
+				videoGameDao.deleteById(id);
 				return new ResponseEntity<String>("Videojuego eliminado exitosamente", HttpStatus.OK);
 			} else {
 				return new ResponseEntity<String>("Videojuego NO encontrado en los registros", HttpStatus.NOT_FOUND);
