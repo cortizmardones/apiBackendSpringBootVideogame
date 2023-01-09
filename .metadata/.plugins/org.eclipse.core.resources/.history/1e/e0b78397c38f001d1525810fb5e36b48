@@ -23,6 +23,6 @@ public interface IVideogameService {
 	public ResponseEntity<String> actualizarVideojuegoBody(Videogame videogame);
 	
 	// ###################### DELETE ######################
-	public ResponseEntity<String> eliminarVideojuego(Long id);
+	public ResponseEntity<String> eliminarVideojuegoBody(Long id);
 
 }

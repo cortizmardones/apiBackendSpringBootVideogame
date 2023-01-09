@@ -54,8 +54,8 @@ public class VideogameRestController {
 	
 	// ###################### DELETE ######################
 	@DeleteMapping("eliminarVideojuego/{id}")
-	public ResponseEntity<String> eliminarVideojuego(@PathVariable Long id) {
-		return videogameService.eliminarVideojuego(id);
+	public ResponseEntity<String> eliminarVideojuegoBody(@PathVariable Long id) {
+		return videogameService.eliminarVideojuegoBody(id);
 	}
 
 }

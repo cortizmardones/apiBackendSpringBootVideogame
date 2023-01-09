@@ -129,7 +129,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 11,\r\n    \"nombre\": \"Tumblepop\",\r\n    \"precio\": 1000\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -137,14 +137,15 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/v1/eliminarVideojuegoBody",
+					"raw": "localhost:8080/v1/eliminarVideojuegoBody/140",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
 						"v1",
-						"eliminarVideojuegoBody"
+						"eliminarVideojuegoBody",
+						"140"
 					]
 				}
 			},

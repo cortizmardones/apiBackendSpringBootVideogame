@@ -115,8 +115,8 @@ public class VideogameServiceImpl implements IVideogameService {
 	// ###################### DELETE ######################
 	@Override
 	@Transactional
-	public ResponseEntity<String> eliminarVideojuego(Long id) {
-		LOGGER.info("Inicio método eliminarVideojuego()");
+	public ResponseEntity<String> eliminarVideojuegoBody(Long id) {
+		LOGGER.info("Inicio método eliminarVideojuegoBody()");
 		try {
 			// Busco primero si existe el videojuego previamente en la BDD.
 			Optional<Videogame> videojuegoBuscado = videoGameDao.findById(id);
