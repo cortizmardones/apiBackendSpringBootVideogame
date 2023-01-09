@@ -1407,3 +1407,167 @@
 2023-01-08 17:14:15,707 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-01-08 17:14:15,708 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
 2023-01-08 17:18:45,296 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:18:45,300 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:18:45,301 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:29:26,979 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:29:26,983 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:29:26,983 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:30:09,348 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:30:09,351 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:30:09,352 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:30:18,483 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:30:18,486 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:30:18,487 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:30:43,543 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:30:43,546 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:30:43,547 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:52:57,616 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:52:57,624 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:52:57,625 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:53:03,378 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:53:03,387 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:53:03,388 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:53:38,997 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:53:39,006 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:53:39,007 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:53:57,992 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:53:57,995 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:53:57,996 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:54:23,906 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:54:23,908 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:54:23,909 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:54:42,632 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:54:42,636 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:54:42,637 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:54:48,419 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:54:48,421 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:54:48,422 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:54:52,699 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:54:52,701 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:54:52,702 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:54:54,631 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:54:54,633 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:54:54,633 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:55:06,430 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:55:06,433 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:55:06,434 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:55:16,031 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:55:16,033 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:55:16,034 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:55:32,877 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:55:32,879 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:55:32,880 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:55:36,766 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:55:36,768 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:55:36,768 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:55:47,454 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:55:47,456 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:55:47,456 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:56:16,885 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:56:16,887 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:56:16,887 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:56:39,865 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:56:39,867 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:56:39,868 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:56:44,665 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:56:44,667 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:56:44,667 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:57:06,903 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:57:06,905 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:57:06,905 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:57:26,119 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:57:26,121 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:57:26,122 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:57:42,909 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:57:42,911 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:57:42,912 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:57:45,990 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:57:45,992 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:57:45,993 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:57:58,053 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:57:58,057 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:57:58,058 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:58:04,395 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:58:04,397 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:58:04,397 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:59:10,248 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:59:10,249 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:59:10,250 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:59:17,982 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:59:17,984 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:59:17,985 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:59:35,640 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:59:35,641 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:59:35,642 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:59:38,644 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:59:38,646 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:59:38,647 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 17:59:54,071 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 17:59:54,075 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 17:59:54,076 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:00:04,228 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:00:04,230 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:00:04,230 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:00:16,796 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:00:16,798 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:00:16,799 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:00:30,854 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:00:30,857 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:00:30,858 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:00:44,344 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:00:44,347 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:00:44,348 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:00:58,306 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:00:58,309 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:00:58,310 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:01:19,593 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:01:19,594 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:01:19,595 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:06:19,948 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:06:19,951 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:06:19,951 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:06:51,787 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:06:51,791 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:06:51,791 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:07:12,724 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:07:12,730 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:07:12,730 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 18:07:49,731 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 18:07:49,733 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 18:07:49,734 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 21:58:08,455 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 21:58:08,464 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 21:58:08,465 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 21:58:11,501 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 21:58:11,512 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 21:58:11,513 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 21:58:44,281 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 21:58:44,290 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 21:58:44,291 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 21:59:15,293 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 21:59:15,295 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 21:59:15,296 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 21:59:26,584 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 21:59:26,586 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 21:59:26,587 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 21:59:31,148 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 21:59:31,151 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 21:59:31,151 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 21:59:41,089 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 21:59:41,091 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 21:59:41,091 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 21:59:47,531 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 21:59:47,533 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 21:59:47,535 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 22:00:00,153 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 22:00:00,155 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 22:00:00,156 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 22:00:03,903 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 22:00:03,905 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 22:00:03,906 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 22:00:12,720 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 22:00:12,722 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 22:00:12,723 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
+2023-01-08 22:00:34,102 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-08 22:00:34,104 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-08 22:00:34,105 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources

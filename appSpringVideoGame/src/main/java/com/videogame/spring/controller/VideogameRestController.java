@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -28,6 +30,16 @@ public class VideogameRestController {
 	@GetMapping("buscarVideojuego/{id}")
 	public ResponseEntity<Optional<Videogame>> buscarVideojuego(@PathVariable Long id){
 		return videogameService.buscarVideojuego(id);
+	}
+	
+	@PostMapping("guardarVideojuego/{nombre}/{precio}")
+	public ResponseEntity<String> guardarVideojuego(@PathVariable String nombre , @PathVariable Double precio){
+		return videogameService.guardarVideojuego(nombre, precio);
+	}
+	
+	@PostMapping("guardarVideojuegoBody")
+	public ResponseEntity<String> guardarVideojuegoBody(@RequestBody Videogame videogame){
+		return videogameService.guardarVideojuegoBody(videogame);
 	}
 	
 }

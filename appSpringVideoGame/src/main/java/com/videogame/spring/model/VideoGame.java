@@ -2,6 +2,8 @@ package com.videogame.spring.model;
 
 import java.io.Serializable;
 
+import org.springframework.stereotype.Component;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,6 +13,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "Videogame")
+@Component
 public class Videogame implements Serializable {
 
 	private static final long serialVersionUID = 9152217868255911129L;
