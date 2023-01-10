@@ -1867,3 +1867,4 @@
 2023-01-09 22:45:52,550 [Worker-278: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
 2023-01-09 22:45:59,630 [Worker-279: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-01-09 22:45:59,633 [Worker-279: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-01-09 22:45:59,634 [Worker-279: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Carlos\Desktop\Proyectos SpringBoot\SpirngBootVideoGame\appSpringVideoGame\src\test\resources
