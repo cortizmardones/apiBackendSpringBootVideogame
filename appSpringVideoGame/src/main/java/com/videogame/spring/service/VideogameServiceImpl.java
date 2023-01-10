@@ -27,13 +27,13 @@ public class VideogameServiceImpl implements IVideogameService {
 	// ###################### CREATE ######################
 	@Override
 	@Transactional
-	public ResponseEntity<String> guardarVideojuego(String nombre, Double precio) {
-		LOGGER.info("Inicio método guardarVideojuego() - Parámetros : Nombre: " + nombre + " , Precio: " + precio);
+	public ResponseEntity<String> guardarVideojuego(String nombre, Double precio , int id_categoria) {
+		LOGGER.info("Inicio método guardarVideojuego()");
 		try {
-			// El campo id lo paso como nulo ya que el parametro id del entity Videogame es
-			// autogenerado por JPA y por MYSQL.
+			// El campo id lo paso como nulo ya que el parametro id del entity Videogame es autogenerado por JPA y por MYSQL.
 			videogame.setNombre(nombre);
 			videogame.setPrecio(precio);
+			videogame.setId_categoria(id_categoria);
 			videoGameDao.save(videogame);
 			return new ResponseEntity<String>("Videojuego guardado exitosamente", HttpStatus.OK);
 		} catch (Exception e) {
@@ -80,8 +80,7 @@ public class VideogameServiceImpl implements IVideogameService {
 		Optional<Videogame> videogame = null;
 		try {
 			videogame = videoGameDao.findById(id);
-			return videogame.isPresent() ? new ResponseEntity<Optional<Videogame>>(videogame, HttpStatus.OK)
-					: new ResponseEntity<Optional<Videogame>>(videogame, HttpStatus.NOT_FOUND);
+			return videogame.isPresent() ? new ResponseEntity<Optional<Videogame>>(videogame, HttpStatus.OK) : new ResponseEntity<Optional<Videogame>>(videogame, HttpStatus.NOT_FOUND);
 		} catch (Exception e) {
 			LOGGER.error("Error al consultar el videojuego", e);
 			e.printStackTrace();

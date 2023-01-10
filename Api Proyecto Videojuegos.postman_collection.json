@@ -31,7 +31,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/v1/buscarVideojuego/21",
+					"raw": "localhost:8080/v1/buscarVideojuego/4",
 					"host": [
 						"localhost"
 					],
@@ -39,7 +39,7 @@
 					"path": [
 						"v1",
 						"buscarVideojuego",
-						"21"
+						"4"
 					]
 				}
 			},
@@ -51,7 +51,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/v1/guardarVideojuego/Crisis Core: Final Fantasy VII Reunion/59900",
+					"raw": "localhost:8080/v1/guardarVideojuego/Devil May Cry 5 Special Edition/29900/1",
 					"host": [
 						"localhost"
 					],
@@ -59,8 +59,9 @@
 					"path": [
 						"v1",
 						"guardarVideojuego",
-						"Crisis Core: Final Fantasy VII Reunion",
-						"59900"
+						"Devil May Cry 5 Special Edition",
+						"29900",
+						"1"
 					]
 				}
 			},
@@ -73,7 +74,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nombre\": \"Final Fantasy VII Remake Intergrade\",\r\n    \"precio\": 42900\r\n}",
+					"raw": "{\r\n    \"nombre\": \"Grand Theft Auto V\",\r\n    \"precio\": 24900,\r\n    \"id_categoria\" : 1\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -101,7 +102,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 100,\r\n    \"nombre\": \"\",\r\n    \"precio\": 0\r\n}",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"Tumblepop\",\r\n    \"precio\": 1000,\r\n    \"id_categoria\": 2\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

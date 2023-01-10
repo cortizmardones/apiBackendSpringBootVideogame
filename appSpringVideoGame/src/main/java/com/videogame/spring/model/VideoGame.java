@@ -24,15 +24,17 @@ public class Videogame implements Serializable {
 	private Long id;
 	private String nombre;
 	private Double precio;
+	private int id_categoria;
 
 	public Videogame() {
 
 	}
-
-	public Videogame(Long id, String nombre, Double precio) {
+	
+	public Videogame(Long id, String nombre, Double precio, int id_categoria) {
 		this.id = id;
 		this.nombre = nombre;
 		this.precio = precio;
+		this.id_categoria = id_categoria;
 	}
 
 	public Long getId() {
@@ -59,4 +61,14 @@ public class Videogame implements Serializable {
 		this.precio = precio;
 	}
 
+	public int getId_categoria() {
+		return id_categoria;
+	}
+
+	public void setId_categoria(int id_categoria) {
+		this.id_categoria = id_categoria;
+	}
+
+	
+	
 }

@@ -10,7 +10,7 @@ import com.videogame.spring.model.Videogame;
 public interface IVideogameService {
 
 	// ###################### CREATE ######################
-	public ResponseEntity<String> guardarVideojuego(String nombre, Double precio);
+	public ResponseEntity<String> guardarVideojuego(String nombre, Double precio, int id_categoria);
 
 	public ResponseEntity<String> guardarVideojuegoBody(Videogame videogame);
 
