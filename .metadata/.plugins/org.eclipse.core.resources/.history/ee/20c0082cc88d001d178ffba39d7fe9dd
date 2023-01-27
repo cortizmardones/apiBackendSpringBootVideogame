@@ -1,8 +1,0 @@
-package com.videogame.spring.service;
-
-import org.springframework.stereotype.Service;
-
-@Service
-public class VideogameServiceImpl implements IVideogameService {
-
-}

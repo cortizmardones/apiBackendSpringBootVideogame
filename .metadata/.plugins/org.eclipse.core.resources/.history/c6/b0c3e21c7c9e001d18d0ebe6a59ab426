@@ -1,0 +1,5 @@
+package com.videogame.spring.swagger;
+
+public class SwaggerConfig {
+
+}

@@ -1,7 +1,0 @@
-package com.videogame.spring.model;
-
-import java.io.Serializable;
-
-public class Categoria implements Serializable {
-
-}

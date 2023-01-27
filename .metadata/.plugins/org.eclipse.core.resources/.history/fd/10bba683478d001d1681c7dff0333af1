@@ -1,5 +1,0 @@
-package com.videogame.spring.model.dao;
-
-public class sfsdfsdf implements IVideoGameDao {
-
-}

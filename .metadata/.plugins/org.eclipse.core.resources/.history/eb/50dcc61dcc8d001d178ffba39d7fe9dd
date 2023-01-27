@@ -1,7 +1,0 @@
-package com.videogame.spring.service;
-
-public interface IVideogameService {
-	
-	public List<Videogame> listarVideojuegos();
-
-}

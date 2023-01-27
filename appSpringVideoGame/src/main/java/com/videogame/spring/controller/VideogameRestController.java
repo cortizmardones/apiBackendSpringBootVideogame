@@ -27,7 +27,7 @@ public class VideogameRestController {
 	// ###################### CREATE ######################
 	@PostMapping("/guardarVideojuego/{nombre}/{precio}/{id_categoria}")
 	public ResponseEntity<String> guardarVideojuego(@PathVariable String nombre, @PathVariable Double precio , @PathVariable int id_categoria) {
-		return videogameService.guardarVideojuego(nombre, precio,id_categoria);
+		return videogameService.guardarVideojuego(nombre, precio, id_categoria);
 	}
 
 	@PostMapping("/guardarVideojuegoBody")

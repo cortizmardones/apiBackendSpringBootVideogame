@@ -1,7 +1,0 @@
-package com.videogame.spring.model.dao;
-
-import org.springframework.data.repository.CrudRepository;
-
-public interface IVideoGameDao extends CrudRepository<T, ID> {
-
-}

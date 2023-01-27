@@ -1,0 +1,8 @@
+package com.videogame.spring.swagger;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SwaggerConfig {
+
+}

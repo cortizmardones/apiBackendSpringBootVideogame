@@ -4,7 +4,7 @@
 CREATE TABLE `db_videogame_system`.`categoria` (
   `id_categoria` INT NOT NULL AUTO_INCREMENT,
   `nombre` VARCHAR(255) NULL,
-  `descripcion`  VARCHAR(255) NULL,
+  `descripcion`  VARCHAR(2500) NULL,
   PRIMARY KEY (`id_categoria`),
   UNIQUE INDEX `id_categoria_UNIQUE` (`id_categoria` ASC) VISIBLE);
 
